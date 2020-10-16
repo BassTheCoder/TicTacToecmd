@@ -57,11 +57,11 @@ namespace TicTacToeOcmd
                 Console.Write("\n" + player.Name + "- Games played: " + player.Stats.GamesPlayed + " || Wins: " + player.Stats.Wins + " || Losses: " + player.Stats.Losses);
                 if (player.Stats.GamesPlayed > 0)
                 {
-                    Console.WriteLine("|| Win %: " + player.Stats.WinPercentage + "%");
+                    Console.WriteLine(" || Win %: " + player.Stats.WinPercentage + "%");
                 }
                 else
                 {
-                    Console.WriteLine("|| Player hasn't played yet, no Win% data." );
+                    Console.WriteLine(" || Player hasn't played yet, no Win% data." );
                 }
             }
         }
