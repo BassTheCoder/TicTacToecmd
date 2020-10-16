@@ -61,7 +61,7 @@ namespace TicTacToeOcmd
                 }
                 else
                 {
-                    Console.WriteLine(" || Player hasn't played yet, no Win% data." );
+                    Console.WriteLine(" || Player hasn't played yet, no Win% data yet." );
                 }
             }
         }
